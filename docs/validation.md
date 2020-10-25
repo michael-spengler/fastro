@@ -12,11 +12,11 @@ import type { HandlerOptions, Request, ValidationSchema } from "https://raw.fast
 const validationSchema: ValidationSchema = {
   body: { type: "object", properties: { addres: { type: "string" } } },
   headers: {
-      type: "object",
-      properties: {
-        "token": { type: "string" },
-      },
-      required: ["token"],
+    type: "object",
+    properties: {
+      token: { type: "string" },
+    },
+    required: ["token"],
   },
   querystring: {
     type: "object",
