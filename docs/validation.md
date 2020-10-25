@@ -11,7 +11,7 @@ import type { HandlerOptions, Request, ValidationSchema } from "https://raw.fast
 
 const validationSchema: ValidationSchema = {
   body: { type: "object", properties: { addres: { type: "string" } } },
-    headers: {
+  headers: {
       type: "object",
       properties: {
         "token": { type: "string" },
