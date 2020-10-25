@@ -10,13 +10,13 @@
 import type { HandlerOptions, Request, ValidationSchema } from "https://raw.fastro.dev/master/mod.ts";
 
 const validationSchema: ValidationSchema = {
-body: { type: "object", properties: { addres: { type: "string" } } },
-  headers: {
-    type: "object",
-    properties: {
-      "token": { type: "string" },
-    },
-    required: ["token"],
+  body: { type: "object", properties: { addres: { type: "string" } } },
+    headers: {
+      type: "object",
+      properties: {
+        "token": { type: "string" },
+      },
+      required: ["token"],
   },
   querystring: {
     type: "object",
