@@ -48,5 +48,5 @@
 
 
 ## What's next:
-- [Publishing and Deployment](deployment.md)
+- [Publishing and deployment](deployment.md)
 - [Fastro API](api.md)

@@ -3,13 +3,10 @@
 
 ![](https://avatars0.githubusercontent.com/u/72688404?s=400&amp;v=4)
 
-Built on top of [Deno standard library](https://deno.land/std@0.74.0). Written in [TypeScript](https://www.typescriptlang.org/). 
-
-The speed is already close to the raw Deno HTTP library. [Check this perfomance test](docs/perfomance.md).
-
-No need to add or register route declarations, controllers, middlewares, templates, or static files manually. 
-
-Fastro will automatically load and save them when the server starts.
+Built on top of [Deno standard library](https://deno.land/std@0.74.0). Written in [TypeScript](https://www.typescriptlang.org/).  
+The speed is already close to the raw Deno HTTP library. [Check this perfomance test](docs/perfomance.md).  
+No need to add or register route declarations, controllers, middlewares, templates, or static files manually.  
+Fastro will automatically load and save them when the server starts.  
 
 ## Getting started
 
@@ -38,7 +35,7 @@ Go to [quickstart](docs/quickstart.md) for detail installation.
 - Command line interface
 - Data validation
 - Dynamic URL parameters
-- Serverless Deployment
+- Serverless deployment
 - Supports `cookie`
 - Supports middleware
 - Supports proxy
@@ -58,7 +55,7 @@ You can see the details in [the examples](https://github.com/fastrodev/fastro/bl
 - [Create static files](docs/static.md)
 - [Template rendering](docs/rendering.md)
 - [Data validation](docs/validation.md)
-- [Publishing and Deployment](docs/deployment.md)
+- [Publishing and deployment](docs/deployment.md)
 - [Fastro API](docs/api.md)
 
 [build]: https://github.com/fastrodev/fastro/workflows/ci/badge.svg?branch=master "fastro build"
