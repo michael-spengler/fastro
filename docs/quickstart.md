@@ -13,8 +13,14 @@
     ```
 
     Add `-f --reload` if you want to get the latest update. 
+    ```
+    deno install -f --reload -A https://raw.fastro.dev/master/cli/fastro.ts
+    ```
     
-    Change `master` with the latest version to prevent breaking changes.
+    Or change `master` with the latest version to prevent breaking changes.
+    ```
+    deno install -A https://raw.fastro.dev/v0.30.20/cli/fastro.ts
+    ```
 
 
 3. Make a new directory
@@ -41,7 +47,8 @@
     ```
     http://localhost:3000
     ```
-7. Go to [deployment](deployment.md) if you want to publish your webapp.
+
+7. Go to [publishing and deployment](deployment.md) if you want to publish your webapp.
 
 ## What's next:
 - [Create a handler](handler.md)

@@ -36,11 +36,8 @@
     ```
 
     Please note that: 
-    - the handler file name will be used as URL endpoint:
-
-        - **hello** . *controller.ts*
-
-    - `request.hello` variable is come from [middleware](middleware.md).
+    - the handler file name will be used as URL endpoint: ***hello***.*controller.ts*
+    - `request.hello` variable is come from [middleware setup](middleware.md).
     - You can find another handler examples on [services folder](../services/readme.md).
 
 
