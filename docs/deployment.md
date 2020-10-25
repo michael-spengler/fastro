@@ -2,7 +2,7 @@
 
 By default, you can deploy fastro web apps on [Cloud Run](https://cloud.google.com/run), a fully managed serverless platform built by Google.
 
-Cloud run abstracts all infrastructure management by automatically scaling up and down from zero almost instantaneously - depending on traffic. It also only charges you for the exact resources you use.
+> *Cloud run abstracts all infrastructure management by automatically scaling up and down from zero almost instantaneously - depending on traffic. It also only charges you for the exact resources you use.*
 
 ## Install gcloud sdk (linux)
 - Download [gcloud sdk](https://cloud.google.com/sdk)
@@ -11,7 +11,7 @@ Cloud run abstracts all infrastructure management by automatically scaling up an
     curl -O https://dl.google.com/dl/cloudsdk/channels/rapid/downloads/google-cloud-sdk-315.0.0-linux-x86_64.tar.gz
     ```
 
-- Extract the contents of the file to any location on your file system. If you would like to replace an existing installation, remove the existing google-cloud-sdk directory and extract the archive to the same location
+- Extract the contents of the file to any location on your file system
     ```
     tar xvzf google-cloud-sdk-315.0.0-linux-x86_64.tar.gz
     ```
