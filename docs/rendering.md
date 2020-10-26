@@ -9,13 +9,12 @@
     │   └── support.ts
     ├── public
     │   ├── favicon.ico
-    │   ├── index.html
-    │   └── logo.svg
+    │   └── index.html
     └── services
         ├── hello.controller.ts
         └── hello.template.html
 
-    3 directories, 8 files
+    3 directories, 7 files
     ```
 
     You can render html template and pass dynamic value on it.

@@ -9,14 +9,14 @@
     │   └── support.ts
     ├── public
     │   ├── favicon.ico
-    │   ├── index.html
-    │   └── logo.svg
+    │   └── index.html
     └── services
         ├── hello.controller.ts
         └── hello.template.html
 
-    3 directories, 8 files
+    3 directories, 7 files
     ```
+    
 - You can add static files by put your files in `public` folder. Fastro will load and save it when the server starts up. You can access directly by filename via URL.
 
     Example: 
