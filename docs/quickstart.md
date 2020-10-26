@@ -1,5 +1,7 @@
 # Quickstart
 
+## Installation
+
 1. Install deno (linux/mac)
     ```
     curl -fsSL https://deno.land/x/install/install.sh | sh
@@ -22,33 +24,34 @@
     deno install -A https://raw.fastro.dev/v0.30.20/cli/fastro.ts
     ```
 
+## Create a project
 
-3. Make a new directory
+1. Make a new directory
     ```
     mkdir webapp && cd webapp
     ```
 
-4. Initiate a project
+2. Initiate a project
     ```
     fastro init
     ```
 
-5. Run server
+3. Run server locally
     ```
     fastro serve
     ```
     
-    Or if you want with `deno`:
+    Or if you want to run server with `deno`:
     ```
     deno run -A main.ts
     ```
 
-6. Open url
+4. Open url
     ```
     http://localhost:3000
     ```
 
-7. Go to [publishing and deployment](deployment.md) if you want to publish your webapp.
+5. Go to [publishing and deployment](deployment.md) if you want to publish your webapp.
 
 ## What's next:
 - [Create a handler](handler.md)
